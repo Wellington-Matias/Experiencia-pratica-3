@@ -25,7 +25,7 @@ window.addEventListener('hashchange', () => {
 // --- Página Inicial ---
 function renderHome() {
   renderTemplate(`
-    <h1 class="text-2xl font-bold mb-4 text-center">Bem-vindo à Mini SPA</h1>
+    <h1 class="text-2xl font-bold mb-4 text-center">Bem-vindo à Well Tec</h1>
     <div class="flex flex-col gap-3">
       <button onclick="navigate('cadastro')" class="bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Cadastrar Usuário</button>
       <button onclick="navigate('lista')" class="bg-gray-500 text-white py-2 rounded hover:bg-gray-600">Ver Usuários</button>
