@@ -1,4 +1,4 @@
-// --- Sistema de Rotas SPA ---
+// --- Sistema de Rotas Well Tec ---
 const routes = {
   home: renderHome,
   cadastro: renderCadastro,
@@ -11,7 +11,7 @@ function renderTemplate(html) {
   app.innerHTML = html;
 }
 
-// --- Função de Navegação SPA ---
+// --- Função de Navegação Well Tec ---
 function navigate(page) {
   window.location.hash = page;
 }
@@ -79,7 +79,7 @@ function handleFormSubmit(event) {
 
   msg.classList.remove('text-red-500');
   msg.classList.add('text-green-600');
-  msg.textContent = "✅ Usuário cadastrado com sucesso!";
+  msg.textContent = "Usuário cadastrado com sucesso!";
 
   setTimeout(() => navigate('lista'), 1000);
 }
