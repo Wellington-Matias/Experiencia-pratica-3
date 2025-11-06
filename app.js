@@ -11,7 +11,7 @@ function renderTemplate(html) {
   app.innerHTML = html;
 }
 
-// --- Função de Navegação SPA ---
+// --- Função de Navegação Well Tec ---
 function navigate(page) {
   window.location.hash = page;
 }
